@@ -1,0 +1,21 @@
+
+<suite name ="Magenta WebTV Tests" >
+
+
+    <listeners>
+        <listener class-name="com.qa.magenta.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <test name="WebTv homepage test">
+        <classes>
+            <class name="com.qa.magenta.tests.MagentaHomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="WebTv login test">
+        <classes>
+            <class name="com.qa.magenta.tests.MagentaLoginPageTest"/>
+        </classes>
+    </test>
+
+</suite>
